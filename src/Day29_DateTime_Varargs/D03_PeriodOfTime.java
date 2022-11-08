@@ -6,7 +6,7 @@ import java.time.Period;
 public class D03_PeriodOfTime {
     public static void main(String[] args) {
 
-        // Dogum tarihinizi ve bugunu local date olarak olusyurup
+        // Dogum tarihinizi ve bugunu local date olarak olusturup
         // Kac yasinda oldugunuzu yazdirin
 
         LocalDate bugun=LocalDate.now();

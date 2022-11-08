@@ -29,10 +29,13 @@ public class D03_localTime {
 
         if (dogTar1.isBefore(dogTar2)){
             System.out.println("1. Kisi daha yasli");
+
         } else if (dogTar1.isAfter(dogTar2)) {
-            System.out.println("2. kisi daha yasli");
+            System.out.println("2. Kisi daha yasli");
+
         } else {
             System.out.println("iki kisi de ayni gün dogmustur");
+
         }
 
         System.out.println(dogTar1.isLeapYear()); // False
@@ -40,5 +43,7 @@ public class D03_localTime {
         System.out.println(trh.lengthOfYear()); // 365
 
         System.out.println(trh.withDayOfMonth(20)); // 2022-09-20
+
     }
+
 }

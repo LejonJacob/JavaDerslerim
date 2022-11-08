@@ -14,7 +14,7 @@ public class D04_LocalTime {
         System.out.println(saat.getSecond()); // 35
 
         /*
-          bir for loop olusturalim
+          Bir for loop olusturalim
           1'den 10000'e kadar olan sayilari toplatalim
           ve bu islemi ne kadar surede yaptigini bulalim
         */

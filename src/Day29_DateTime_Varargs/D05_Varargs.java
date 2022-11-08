@@ -3,9 +3,10 @@ package Day29_DateTime_Varargs;
 public class D05_Varargs {
     public static void main(String[] args) {
 
-        /* verilen iki sayiyi toplayip yazdiran bir method olusturun
+        /*
+           Verilen iki sayiyi toplayip yazdiran bir method olusturun
            eger verilen sayi adedi degisirse her bir sayi adedi icin yeni bir method olusturmamiz gerekir
-           Bu cok pratik degil
+           Bu cok pratik degil.
         */
 
         topla(3,5); // 8
